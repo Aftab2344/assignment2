@@ -200,6 +200,43 @@
     object-fit: cover;
 }
 
+/* subscription part */
+
+.container{
+    display: flex;
+   
+   
+    height: auto;
+    width: 1060PX;
+    /* background-color: #5a4e4e; */
+    margin: 45px 190px;
+}
+
+    
+.container .image > img{
+    border-radius: 8px;
+    width: 70%;
+}
+.heading{
+    display: flex;
+    flex-direction:column;
+    
+   
+    
+}
+.container .heading h1{
+    line-height: 120%;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.container .heading p{
+    line-height: 24px;
+    font-size: 14px;
+    
+}
+.container .heading button{
+    margin-top: 25px;
+}
 
 
 
@@ -246,5 +283,51 @@
         width: 100%;
         background-repeat: no-repeats;
         margin-top: 25px;
+        object-fit: cover;
     }
+    /* habits part design */
+    .habitt{
+        margin: 20px auto;
+    }
+    .Habits{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 25px;
+    }
+    .title2 h1{
+        line-height: 80%;
+        font-size: 48px;
+        text-align: center;
+    }
+    .title2 p{
+        line-height: 24px;
+        font-size: 14px;
+        text-align: center;
+
+}
+/* subscription part */
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    
+    height: auto;
+    width:auto;
+    /* background-color: #5a4e4e; */
+    margin: auto 20px;
+}
+.container .image{
+   margin-left: 40px;
+   margin-top: 15px;
+}
+.container .image > img{
+    border-radius: 8px;
+    width: 90%;
+   
+}
+.container .heading button{
+    text-align: center;
+    margin: 2px auto;
+}
 }
