@@ -204,13 +204,16 @@
 /* subscription part */
 
 .container{
-    display: flex;
-   
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
    
     height: auto;
-    width: 1060PX;
+    /* width: 1060PX; */
     /* background-color: #5a4e4e; */
     margin: 45px 190px;
+
 }
 
     
@@ -221,7 +224,7 @@
 .heading{
     display: flex;
     flex-direction:column;
-    
+    justify-content: center;
    
     
 }
@@ -280,6 +283,60 @@
    
 }
 
+/* footer design */
+footer{
+    background-color: rgb(46, 44, 44);
+    
+}
+.footer {
+    margin: 100px 190px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(46, 44, 44);
+    column-gap: 35px;
+}
+.footers .links{
+    gap: 25px;
+    margin-top: 25px;
+    background-color: rgb(46, 44, 44);
+}
+.footers h2{
+    color:#e6533c ;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    background-color: rgb(46, 44, 44);
+}
+.footers p{
+    background-color: rgb(46, 44, 44);
+}
+.footers  h3{
+    background-color: rgb(46, 44, 44);
+}
+.footers .links li{
+    list-style: none;
+    background-color: rgb(46, 44, 44);
+}
+.footers .links li a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.5);
+     line-height: 22px;
+     font-size: 14px;
+     background-color: rgb(46, 44, 44);
+}
+.copyright p {
+    text-align: center;
+    background-color: rgb(46, 44, 44);
+}
+.horizontal-line{
+    background-color: rgb(46, 44, 44);
+    border: none;
+   
+    width: 75%;
+    color: rgba(255, 255, 255, 0.5);
+   
+    margin: 20px auto;
+}
 
 @media  screen and (max-width:576px) {
     .div{
@@ -386,4 +443,15 @@
     object-fit: cover;
     border-radius: 10px;
 }
+/* footer design */
+.footer {
+    margin: 70px 90px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgb(46, 44, 44);
+    column-gap: 35px;
+}
+
+
+
 }
